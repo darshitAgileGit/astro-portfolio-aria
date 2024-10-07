@@ -21,12 +21,16 @@ jobs:
         run: |
           npm install -g pnpm
       
+      - name: Sync lockfile and install dependencies
+        run: |
+          pnpm install # This will update the lockfile if it's outdated
+
       - name: Install, build, and upload your site
         uses: withastro/action@v3
         with:
           path: . # The root location of your Astro project inside the repository.
-          node-version: 20 # Specify the version of Node.js, you can change it if needed.
-          package-manager: pnpm@latest # Explicitly specify pnpm for the package manager.
+          node-version: 20
+          package-manager: pnpm@latest
 
   deploy:
     needs: build
