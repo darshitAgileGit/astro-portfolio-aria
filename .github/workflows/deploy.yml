@@ -23,7 +23,7 @@ jobs:
       
       - name: Sync lockfile and install dependencies
         run: |
-          pnpm install # This will update the lockfile if it's outdated
+          pnpm install --no-frozen-lockfile # This will update the lockfile if it's outdated
 
       - name: Install, build, and upload your site
         uses: withastro/action@v3
