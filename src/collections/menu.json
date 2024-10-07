@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Home",
+    "url": "/",
+    "slug": "home"
+  },
+  {
+    "name": "Blog",
+    "url": "https://darshitanjaria.hashnode.dev/",
+    "slug": "blog"
+  },
+  {
+    "name": "About",
+    "url": "/about",
+    "slug": "about"
+  }
+]

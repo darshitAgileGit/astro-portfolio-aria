@@ -1,0 +1,30 @@
+[
+	{
+		"dates": "May 2022 · Present",
+		"role": "Sr. Software Developer",
+		"company": "Agile Infoways Pvt. Ltd.",
+		"description": "Responsible for backend projects, database architecture.",
+		"logo": "/assets/images/experiences/fta.ico"
+	},
+	{
+		"dates": "May 2020 · May 2022",
+		"role": "Software Developer",
+		"company": "Arkay Apps Pvt. Ltd.",
+		"description": "Responsible for backend development. Mentor few devs.",
+		"logo": "/assets/images/experiences/fta.ico"
+	},
+	{
+		"dates": "May 2019 · May 2020",
+		"role": "Jr. Software Developer",
+		"company": "Tech Extensor Pvt. Ltd.",
+		"description": "Responsible for mobile as well as for backend development support.",
+		"logo": "/assets/images/experiences/yoho.ico"
+	},
+	{
+		"dates": "November 2018 · May 2019 ",
+		"role": "Software Developer Trainee",
+		"company": "VSupport Infotech Pvt. Ltd.",
+		"description": "Intern, involved in the development of backend & app development.",
+		"logo": "/assets/images/experiences/wulian.ico"
+	}
+]
