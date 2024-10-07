@@ -8,6 +8,6 @@ import netlify from "@astrojs/netlify";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind()],
-  output: "server",
-  adapter: netlify(),
+  site: 'https://darshitagilegit.github.io',
+  base: '/astro-portfolio-aria',
 });
